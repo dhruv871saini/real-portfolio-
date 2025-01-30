@@ -2,6 +2,9 @@ import React from "react";
 import "./contact.css";
 
 const Contact = () => {
+  const handleSubmit=(e)=>{
+    // e.preventDefault();
+  }
   return (
     <div className="heights">
       <div className="container">
@@ -12,6 +15,7 @@ const Contact = () => {
         </div>
         <div className="row">
           <div className="col-md-5">
+          <form action="" onSubmit={handleSubmit}>
             <div className="form-group">
               <div className="row">
                 <div className="input borders">
@@ -32,7 +36,7 @@ const Contact = () => {
                   </label>
                   <textarea className="form-control" placeholder="" />
                 </div>
-                <button className="border-0 mt-5 w-50 rounded p-2 bg-oranges fs-4 fw-bold">
+                <button type="submit" className="border-0 mt-5 w-50 rounded p-2 bg-oranges fs-4 fw-bold">
                   submit{" "}
                   <span className="hgi-twotone hgi-circle-arrow-down-03">
                     <RightArrowIcon />
@@ -40,6 +44,7 @@ const Contact = () => {
                 </button>
               </div>
             </div>
+              </form>
           </div>
           <div className="col-md-7">
             <div className="row">
