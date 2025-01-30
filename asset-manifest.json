@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/dhruv871saini/real-portfolio-.git/static/css/main.fe156bf3.css",
-    "main.js": "/dhruv871saini/real-portfolio-.git/static/js/main.1b6c8c4a.js",
-    "static/js/453.d73b0aaa.chunk.js": "/dhruv871saini/real-portfolio-.git/static/js/453.d73b0aaa.chunk.js",
-    "index.html": "/dhruv871saini/real-portfolio-.git/index.html",
-    "main.fe156bf3.css.map": "/dhruv871saini/real-portfolio-.git/static/css/main.fe156bf3.css.map",
-    "main.1b6c8c4a.js.map": "/dhruv871saini/real-portfolio-.git/static/js/main.1b6c8c4a.js.map",
-    "453.d73b0aaa.chunk.js.map": "/dhruv871saini/real-portfolio-.git/static/js/453.d73b0aaa.chunk.js.map"
+    "main.css": "/real-portfolio-/static/css/main.fe156bf3.css",
+    "main.js": "/real-portfolio-/static/js/main.8c01712a.js",
+    "static/js/453.d73b0aaa.chunk.js": "/real-portfolio-/static/js/453.d73b0aaa.chunk.js",
+    "index.html": "/real-portfolio-/index.html",
+    "main.fe156bf3.css.map": "/real-portfolio-/static/css/main.fe156bf3.css.map",
+    "main.8c01712a.js.map": "/real-portfolio-/static/js/main.8c01712a.js.map",
+    "453.d73b0aaa.chunk.js.map": "/real-portfolio-/static/js/453.d73b0aaa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe156bf3.css",
-    "static/js/main.1b6c8c4a.js"
+    "static/js/main.8c01712a.js"
   ]
 }
