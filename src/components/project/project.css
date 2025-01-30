@@ -1,0 +1,55 @@
+.bg-colors {
+    background-color: #ca7257;
+    height: 60vh;
+    border-radius: 12px;
+    position: relative; /* Add this line */
+}
+
+.float-left {
+    float: left;
+}
+
+.playicon {
+    position: absolute; /* Add this line */
+    bottom: 0;
+    left: 0;
+}
+.hoveres {
+    position: relative;
+    display: inline-block; 
+    cursor: pointer;
+    
+  }
+
+  .hover-content {
+    display: none;
+    position: absolute;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    color: #343a40;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    top: 100%;
+    left: 0;
+    /* bottom: 0; */
+    z-index: 1000;
+    width: 200px;
+  }
+
+  .hoveres:hover .hover-content {
+    display: block;
+  }
+
+  .hoveres:hover {
+    color: #007bff;
+  }
+  @media (max-width: 768px) {
+    .playicon img {
+      width: 50px !important;
+    }
+    .fs-3 {
+      font-size: 1.5rem !important;
+    }
+  }

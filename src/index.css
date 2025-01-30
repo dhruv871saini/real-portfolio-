@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.oranges{
+  color: #f56539;
+  /* color: #ad5d0c;   it is also a best suitable color */
+
+}.bg-oranges{
+  background-color: #f56539;
+}.heights{
+  height: 100vh;
+}.font-style{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@keyframes slideUpright {
+  from {
+      transform: translateX(150px);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+.animated-section-left {
+  opacity:0;
+  transform: translateX(150px);
+  transition: none; 
+}
+
+
+.in-view.animated-section-left {
+  animation: fadeIn 2s ease-out, slideUpright 2s ease-out;
+  opacity: 1;
+  transform: translateX(0);
+  overflow: visible; 
+  
+}
+.bg-orangesd{
+  background-color: #915111;
+}
+.vh100{
+  height: 100vh;
+}

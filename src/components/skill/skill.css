@@ -1,0 +1,30 @@
+.skill-card {
+  background-color: rgb(238, 233, 233);
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px #f56539;
+  background-color:  rgb(39, 38, 38);
+}
+
+.skill-img {
+  max-width: 80px; /* Image size */
+  height: 80px; /* Maintain consistent image height */
+  margin: 10px auto;
+  object-fit: contain;
+}
+
+.skill-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #e54e4e; /* Changed to white for better contrast */
+}
+
+@media (max-width: 768px) {
+  .skill-card {
+    margin-bottom: 20px;
+  }
+}

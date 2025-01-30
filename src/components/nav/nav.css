@@ -1,0 +1,13 @@
+/* Nav.css */
+.transparent-navbar {
+    background-color: transparent !important; /* Makes the navbar background transparent */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Optional: Add a subtle border for better visibility */
+}
+
+.navbar-nav {
+    margin-left: auto; /* Ensures nav items are right-aligned */
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3E%3Cpath stroke="currentColor" stroke-width="2" d="M5 7h20M5 15h20M5 23h20"/%3E%3C/svg%3E'); /* Customize the toggler icon if desired */
+}

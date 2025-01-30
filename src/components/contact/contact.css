@@ -1,0 +1,50 @@
+.borders{
+    border-color:  #f56539;
+    border-style: solid;
+    border-radius: 12px;
+    padding: 3%;
+    width: 100%;
+    }
+ 
+.input{
+    margin-top: 5%;
+}
+.input input{
+    color: white;
+    background: transparent;
+    
+    
+}
+.input textarea{
+  color: white;
+  background: transparent;
+  
+}
+.input input::placeholder,.input textarea::placeholder {
+  color: red;
+  opacity: 1; 
+}
+.input input:focus,
+.input textarea:focus {
+  /* background-color: transparent; */
+  outline: none; 
+}
+
+.translate{
+  background: transparent;
+  border: none;
+
+}
+.images-laptop{
+position: absolute;
+width: 18%;
+height: 60%;
+margin-top: 10%;
+float: right;
+/* overflow: hidden; */
+}
+.images{
+  width: 40px;
+}.margintop{
+  margin-top: 10%;
+}

@@ -1,0 +1,105 @@
+.bg-grey{
+  background-color: rgb(39, 38, 38);
+  
+}  .oranges{
+  color: #f56539;
+  /* color: #ad5d0c;   it is also a best suitable color */
+
+}.heights{
+  height: 100vh;
+  overflow: hidden;
+}@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+      transform: translateX(-150px);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+.animated-section {
+  opacity:0;
+  transform: translateX(-150px);
+  /* transition: none;  */
+}
+
+
+.in-view.animated-section {
+  animation: fadeIn 2s ease-out, slideUp 2s ease-out;
+  opacity: 1;
+  transform: translateX(0);
+  overflow: visible; 
+  
+}
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@keyframes slideUpright {
+  from {
+      transform: translateX(150px);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+.animated-section-left {
+  opacity:0;
+  transform: translateX(150px);
+  /* transition: none;  */
+}
+
+
+.in-view.animated-section-left {
+  animation: fadeIn 2s ease-out, slideUpright 2s ease-out;
+  opacity: 1;
+  transform: translateX(0);
+  overflow: visible; 
+  
+}
+
+.font-style{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+@keyframes slidetop {
+  from {
+      transform: translateY(150px);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+.animated-section-up {
+  opacity: 0;
+  transform: translateY(150px);
+}
+
+.in-view.animated-section-up {
+  animation: slidetop 2s ease-out;
+  opacity: 1;
+  transform: translateY(0);
+  overflow: visible; 
+}
+

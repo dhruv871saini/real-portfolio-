@@ -1,0 +1,33 @@
+.lineOrages {
+    margin-left: 5%;
+}
+
+.margin-img {
+    margin-top: 40%;
+    /* margin-right: 105%; */
+}
+
+.font-style {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul {
+    list-style-type: disc;
+    margin-top: 10%;
+}
+
+.margin-p {
+    margin-top: 10%;
+}
+
+.underline-custom {
+    text-decoration: underline;
+    text-decoration-color: aqua; /* Change this to your desired color */
+    text-decoration-thickness: 3px;
+    text-decoration-style: wavy;
+}
+
+.orangesd {
+    color: aqua;
+    /* color: purple; */
+}
